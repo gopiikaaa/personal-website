@@ -1,0 +1,156 @@
+.top-container{
+    background-image:url(./galax.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+  .title-text h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 3em;
+    font-weight: bolder;
+    font-family: 'Merriweather', serif;
+    color: rgb(243, 240, 240);
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.3);
+
+    
+  }
+  .title-text h2{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 3em;
+    font-weight: bolder;
+    font-family: 'Merriweather', serif;
+    color: rgb(245, 240, 240);
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.3);
+  }
+  .title-text h3 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 2em;
+    font-weight: bolder;
+    font-family: 'Tinos', serif;
+    color: rgb(245, 242, 242);
+    margin-bottom: 20px;
+
+  }
+  .image{
+        flex: 1; /* Allow the image to take available space */
+        max-width: 100%; /* Ensure the image doesn't exceed its container */
+        height: auto
+  }
+
+.align-items-center {
+    align-items: center!important;
+}
+.gradient-background{
+    background: linear-gradient(300deg,#12023b,#3d3252,#192aa5 );
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+}
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .fw-bold{
+color: aliceblue;
+font-family:'Courier New', Courier, monospace;
+  }
+  .para{
+    color:#00bfff
+  }
+  .paraa{
+    color:#00bfff
+  }
+  .paraaa{
+    color:#00bfff
+  }
+  .paraaaaa{
+    color:#00bfff
+  }
+  .last{
+    color:#00bfff
+  }
+  .love{
+    color:#00bfff
+  }
+  .iicon{
+    color:white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.3);
+
+    font-weight: 1000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+.comm{
+    color:gainsboro;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pb-2 {
+    font-size: 500;
+    font-weight:bolder;
+    color:white;
+    font-family: 'Yatra One', cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.3);
+
+}
+.container-background{
+    
+    background: linear-gradient(300deg,#191D88, #323f72,black);
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+}
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.contact-me{
+    background-color: black;
+    text-align: center;
+}
+.get{
+    color:lightpink;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.3);
+    font-weight: bolder;
+    font-family: 'Merriweather', serif;
+}
+.contact-message{
+    color:white
+}
+.bottom-container{
+    color:black;
+background-color: black;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.copyright {
+    font-size: 1em;
+    color:white;
+    background-color: black;
+    margin-top: 10px;
+    text-align: center;
+}
+
